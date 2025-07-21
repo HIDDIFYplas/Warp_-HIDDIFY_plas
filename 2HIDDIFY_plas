@@ -1,6 +1,6 @@
 //profile-title: کانال تلگرامی ما 💯 *[𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]* 💯 برای کانفیگ های بیشتر جوین شو
 //profile-update-interval: 1
-//subscription-userinfo: upload=0; download=0; total=15099529542; expire=1753300000
+//subscription-userinfo: upload=0; download=15099529542; total=15099529542; expire=1753300000
 
 {
   "log": {
@@ -127,8 +127,8 @@
         "2606:4700:110:8a06:1d75:860b:ca81:bf4/128"
       ],
       "private_key": "wBnbgXB+SHLIwU5CwtL1yd3F4bIIXAMqTJJXVtjgfEA=",
-      "server": "188.114.98.15",
-      "server_port": 4198,
+      "server": "998.444.88.65",
+      "server_port": 5558,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "DxnD",
       "mtu": 1330
@@ -141,8 +141,8 @@
         "2606:4700:110:8fb8:79fb:5b5:45c4:ecfe/128"
       ],
       "private_key": "SMA7Of1+s7k4ehMulC6/Y/vvD9VMQcX0HNr9qpeZMGE=",
-      "server": "162.159.192.73",
-      "server_port": 1843,
+      "server": "666.555.882.13",
+      "server_port": 1993,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "a8Sq",
       "mtu": 1330
@@ -155,8 +155,8 @@
         "2606:4700:110:8e18:a74a:5ec1:e158:7884/128"
       ],
       "private_key": "2HzBaL+RrWbh1y3pAB6qtM0xpr3FwKEgwtkclmoUm04=",
-      "server": "188.114.96.157",
-      "server_port": 5956,
+      "server": "668.554.76.997",
+      "server_port": 5666,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "b5UT",
       "mtu": 1330
@@ -169,8 +169,8 @@
         "2606:4700:110:8449:da7b:fcf0:842f:be61/128"
       ],
       "private_key": "OPuWXw/hE1NWycKV92oKWoB7bPyY5/txl26cKq6XwnU=",
-      "server": "162.159.195.93",
-      "server_port": 939,
+      "server": "992.366.665.33",
+      "server_port": 966,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "TIHh",
       "mtu": 1330
@@ -183,8 +183,8 @@
         "2606:4700:110:8de1:4829:ff58:9278:fd6f/128"
       ],
       "private_key": "oJqfUkA9z0z9417wsItv0oD+EOvajPcERT+Z9Gnwxlo=",
-      "server": "188.114.96.237",
-      "server_port": 939,
+      "server": "668.664.36.266",
+      "server_port": 966,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "LO/n",
       "mtu": 1330
@@ -197,8 +197,8 @@
         "2606:4700:110:8a13:a1df:6f57:c415:92b/128"
       ],
       "private_key": "uGUkonzFvVAq1YMT64o2REjX9LD043qX1QEe9naMZ1w=",
-      "server": "162.159.192.73",
-      "server_port": 2506,
+      "server": "222.669.332.33",
+      "server_port": 2666,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "KvDi",
       "mtu": 1330
