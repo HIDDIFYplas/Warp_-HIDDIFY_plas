@@ -3,9 +3,7 @@
 //subscription-userinfo: upload=0; download=0; total=53687091002000; expire=176456200260
 //channel-link: https://t.me/HIDDIFY_plas
 
-
 warp://162.159.192.5:934?ifpm=m5#@HIDDIFY_plas1&&detour=warp://162.159.192.4:934?ifpm=m5#@HIDDIFY_plas2
 warp://162.159.192.3:934?ifpm=m5#@HIDDIFY_plas3&&detour=warp://162.159.192.5:934?ifpm=m5#@HIDDIFY_plas4
 warp://162.159.192.6:934?ifpm=m5#@HIDDIFY_plas5&&detour=warp://162.159.192.7:934?ifpm=m5#@HIDDIFY_plas6
-warp://162.159.195.8:4500?ifpm=m5#@HIDDIFY_plas7&&detour=warp://162.159.192.9:500?ifpm=m5#@HIDDIFY_plas8
-warp://162.159.192.10:500?ifpm=m5#@HIDDIFY_plas9
+warp://162.159.195.8:4500?ifpm=m5#@HIDDIFY_plas7
