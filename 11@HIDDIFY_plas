@@ -1,0 +1,477 @@
+//profile-title: کانال تلگرامی ما*👑🧩[𝗛𝗜𝗗𝗗𝗜𝗙𝗬_𝗽𝗹𝗮𝘀]🧩👑*برای کانفیگ‌های بیشتر جوین شو
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=53687091002000; expire=176456200260
+//channel-link: https://t.me/HIDDIFY_plas
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+ipv6: false
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - router.asus.com
+    - localhost.sec.qq.com
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+
+
+proxies:
+  - type: vless
+    name: 🇩🇪@HIDDIFY_plas1
+    server: 93.94.51.9
+    port: 28813
+    uuid: 3d71e4dd-5e4b-473c-8d1c-28aefa14cdb5
+    network: tcp
+    servername: yandex.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: _4MQ6e6Z3IPdExI9HbGz8xqKL83Uv8YZHNs0hVET2FE
+      short-id: daf1198a669f3b60
+    client-fingerprint: chrome
+  - type: vmess
+    name: 🇦🇺@HIDDIFY_plas
+    server: 54.206.192.9
+    port: 16407
+    uuid: 08f45028-1db6-4e93-bf51-d344b6c71e19
+    alterId: 0
+    network: tcp
+    cipher: auto
+  - type: trojan
+    name: 🇭🇰@HIDDIFY_plas1
+    server: oss-cn-shanghai.letssepub.com
+    port: 20021
+    password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+    network: tcp
+    sni: dingding-doc.com
+    skip-cert-verify: true
+    fingerprint: chrome
+    tls: true
+  - type: vless
+    name: 🇺🇸@HIDDIFY_plas1
+    server: 185.77.221.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸@HIDDIFY_plas2
+    server: 193.56.20.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸@HIDDIFY_plas3
+    server: 193.56.20.10
+    port: 443
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸@HIDDIFY_plas4
+    server: 146.19.90.10
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇷🇴@HIDDIFY_plas
+    server: ro.otunnel.icu
+    port: 443
+    uuid: b41bfc57-24af-42c7-a791-89e7099958c5
+    network: tcp
+    servername: www.orange.ro
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
+      short-id: bc60d5de
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇺🇸@HIDDIFY_plas5
+    server: 148.135.83.173
+    port: 28901
+    uuid: 15135ad9-eb14-4b1c-8ab0-6ca17b6f3301
+    network: tcp
+    servername: images.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: aiCXvan0Pyr593Kr55wJifchu1dpTBiOj9J7x2m9Hio
+      short-id: "84"
+    client-fingerprint: random
+  - type: vless
+    name: 🇷🇺@HIDDIFY_plas1
+    server: 166.1.131.8
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇫🇮@HIDDIFY_plas
+    server: fi.nnvpn.io
+    port: 443
+    uuid: 83e57c25-1c8e-429f-974f-e3bde3fff12d
+    network: tcp
+    servername: fi.nnvpn.io
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: exGXRdYWKYHQ9nNUxmZRFzWUxKJgBsaytdpbH95nFQs
+      short-id: 2942353c0b9ace1f
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇩🇪@HIDDIFY_plas2
+    server: deu406.unboundaccess.org
+    port: 443
+    uuid: 46615c49-e794-470d-9e65-2deaca461378
+    network: tcp
+    servername: www.screwfix.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: ss
+    name: 🇭🇰@HIDDIFY_plas2
+    server: zz2.xxxyun.top
+    port: 40023
+    cipher: 2022-blake3-aes-128-gcm
+    password: MDhhMTdjZDI0MjI2ZWRlNg==:N2I1NmE0OTUtMzlhOS00Mg==
+  - type: ss
+    name: 🇭🇰@HIDDIFY_plas3
+    server: zz2.xxxyun.top
+    port: 40023
+    cipher: 2022-blake3-aes-128-gcm
+    password: MDhhMTdjZDI0MjI2ZWRlNg==:NGE2YmY2NDAtNWM1ZS00MQ==
+  - type: vless
+    name: 🇨🇿@HIDDIFY_plas
+    server: 194.182.79.240
+    port: 14338
+    uuid: de80fd2a-afe3-4cd6-8222-c05c271cc05e
+    network: grpc
+    encryption: none
+    grpc-opts:
+      grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - type: vless
+    name: 🇺🇸@HIDDIFY_plas6
+    server: 185.77.221.10
+    port: 443
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: hxPcjUR-8QiEhcFdvvJz3JS4xUnoSv6KsxMWG0yGkh0
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: ss
+    name: 🇭🇰@HIDDIFY_plas4
+    server: zz2.xxxyun.top
+    port: 40010
+    cipher: 2022-blake3-aes-128-gcm
+    password: MDhhMTdjZDI0MjI2ZWRlNg==:N2I1NmE0OTUtMzlhOS00Mg==
+  - type: vless
+    name: 🇺🇸@HIDDIFY_plas7
+    server: 77.110.119.225
+    port: 443
+    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+    network: tcp
+    servername: st.ozone.ru
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+      short-id: 07e904766d29b958
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇷🇺@HIDDIFY_plas2
+    server: russia22.clearorbitllc.com
+    port: 443
+    uuid: 5c1bc547-6ed3-4234-873e-966d9eef5d27
+    network: tcp
+    servername: russia22.clearorbitllc.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: fwyaXZJrcorp1BQM4O2SicK-n15VNO53GWvvFsecbhM
+      short-id: 10f76a02167e9b
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇫🇷@HIDDIFY_plas
+    server: 155.212.110.2
+    port: 993
+    uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
+    network: tcp
+    servername: speed.cloudflare.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: ❓@HIDDIFY_plas1
+    server: 104.24.158.194
+    port: 443
+    uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+    network: ws
+    servername: vless.hubp.de
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: vless.hubp.de
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 🇩🇪@HIDDIFY_plas3
+    server: 141.101.121.250
+    port: 80
+    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+    alterId: 0
+    network: ws
+    cipher: auto
+    servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    ws-opts:
+      path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM
+        (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+  - type: vless
+    name: 🇹🇷@HIDDIFY_plas
+    server: 103.231.75.115
+    port: 443
+    uuid: id6686739236
+    network: tcp
+    servername: trendyol.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: uIRwom3hz5_F9XL61FUa9Me_20F0kJLehZHdlNwkq2E
+      short-id: 682dd05b
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇬🇧@HIDDIFY_plas
+    server: 154.62.183.37
+    port: 10099
+    uuid: dbefc3bd-b10a-4550-b3d2-3d5d692715cb
+    network: tcp
+    servername: images.apple.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: QoXF1U9XRPcdjuOzzSF6LWZsdE0Aj7WlOz1EFnuLYTo
+      short-id: "324120"
+    client-fingerprint: random
+  - type: vless
+    name: 🇨🇦@HIDDIFY_plas
+    server: 140.238.145.43
+    port: 42557
+    uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+    network: tcp
+    servername: www.yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+      short-id: f430927d
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: ❓@HIDDIFY_plas2
+    server: ip.sb
+    port: 443
+    uuid: 6fd62709-54d9-43aa-bf9e-00776a0a25d3
+    network: ws
+    servername: 81715dc4.se-8ea.pages.dev
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /x0nlkw0wqjljeqwv/mti5lje1ms4ymdquote=?ed=2560
+      headers:
+        Host: 81715dc4.se-8ea.pages.dev
+proxy-groups:
+  - name: 🚀 @HIDDIFY_plas.
+    type: select
+    proxies:
+      - ♻️ @HIDDIFY_plas.
+      - DIRECT
+      - 🇩🇪@HIDDIFY_plas1
+      - 🇦🇺@HIDDIFY_plas
+      - 🇭🇰@HIDDIFY_plas1
+      - 🇺🇸@HIDDIFY_plas1
+      - 🇺🇸@HIDDIFY_plas2
+      - 🇺🇸@HIDDIFY_plas3
+      - 🇺🇸@HIDDIFY_plas4
+      - 🇷🇴@HIDDIFY_plas
+      - 🇺🇸@HIDDIFY_plas5
+      - 🇷🇺@HIDDIFY_plas1
+      - 🇫🇮@HIDDIFY_plas
+      - 🇩🇪@HIDDIFY_plas2
+      - 🇭🇰@HIDDIFY_plas2
+      - 🇭🇰@HIDDIFY_plas3
+      - 🇨🇿@HIDDIFY_plas
+      - 🇺🇸@HIDDIFY_plas6
+      - 🇭🇰@HIDDIFY_plas4
+      - 🇺🇸@HIDDIFY_plas7
+      - 🇷🇺@HIDDIFY_plas2
+      - 🇫🇷@HIDDIFY_plas
+      - ❓@HIDDIFY_plas1
+      - 🇩🇪D@HIDDIFY_plas3
+      - 🇹🇷@HIDDIFY_plas
+      - 🇬🇧@HIDDIFY_plas
+      - 🇨🇦@HIDDIFY_plas
+      - ❓@HIDDIFY_plas2
+  - name: ♻️ @HIDDIFY_plas.
+    type: url-test
+    proxies:
+      - 🇩🇪@HIDDIFY_plas1
+      - 🇦🇺@HIDDIFY_plas
+      - 🇭🇰@HIDDIFY_plas1
+      - 🇺🇸@HIDDIFY_plas1
+      - 🇺🇸@HIDDIFY_plas2
+      - 🇺🇸@HIDDIFY_plas3
+      - 🇺🇸@HIDDIFY_plas4
+      - 🇷🇴@HIDDIFY_plas
+      - 🇺🇸@HIDDIFY_plas5
+      - 🇷🇺@HIDDIFY_plas1
+      - 🇫🇮@HIDDIFY_plas
+      - 🇩🇪@HIDDIFY_plas2
+      - 🇭🇰@HIDDIFY_plas2
+      - 🇭🇰@HIDDIFY_plas3
+      - 🇨🇿@HIDDIFY_plas
+      - 🇺🇸@HIDDIFY_plas6
+      - 🇭🇰@HIDDIFY_plas4
+      - 🇺🇸@HIDDIFY_plas7
+      - 🇷🇺@HIDDIFY_plas2
+      - 🇫🇷@HIDDIFY_plas
+      - ❓@HIDDIFY_plas1
+      - 🇩🇪D@HIDDIFY_plas3
+      - 🇹🇷@HIDDIFY_plas
+      - 🇬🇧@HIDDIFY_plas
+      - 🇨🇦@HIDDIFY_plas
+      - ❓@HIDDIFY_plas2
+    url: https://t.me/HIDDIFY_plas
+    interval: 300
+  - name: 🎯 @HIDDIFY_plas.
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 @HIDDIFY_plas.
+      - ♻️ @HIDDIFY_plas.
+  - name: 🛑 @HIDDIFY_plas.
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 @HIDDIFY_plas.
+    type: select
+    proxies:
+      - 🚀 @HIDDIFY_plas.
+      - 🎯 @HIDDIFY_plas.
+      - ♻️ @HIDDIFY_plas.
+      - 🇩🇪@HIDDIFY_plas1
+      - 🇦🇺@HIDDIFY_plas
+      - 🇭🇰@HIDDIFY_plas1
+      - 🇺🇸@HIDDIFY_plas1
+      - 🇺🇸@HIDDIFY_plas2
+      - 🇺🇸@HIDDIFY_plas3
+      - 🇺🇸@HIDDIFY_plas4
+      - 🇷🇴@HIDDIFY_plas
+      - 🇺🇸@HIDDIFY_plas5
+      - 🇷🇺@HIDDIFY_plas1
+      - 🇫🇮@HIDDIFY_plas
+      - 🇩🇪@HIDDIFY_plas2
+      - 🇭🇰@HIDDIFY_plas2
+      - 🇭🇰@HIDDIFY_plas3
+      - 🇨🇿@HIDDIFY_plas
+      - 🇺🇸@HIDDIFY_plas6
+      - 🇭🇰@HIDDIFY_plas4
+      - 🇺🇸@HIDDIFY_plas7
+      - 🇷🇺@HIDDIFY_plas2
+      - 🇫🇷@HIDDIFY_plas
+      - ❓@HIDDIFY_plas1
+      - 🇩🇪D@HIDDIFY_plas3
+      - 🇹🇷@HIDDIFY_plas
+      - 🇬🇧@HIDDIFY_plas
+      - 🇨🇦@HIDDIFY_plas
+      - ❓@HIDDIFY_plas2
