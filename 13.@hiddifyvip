@@ -3,8 +3,8 @@
 //subscription-userinfo: upload=0; download=0; total=124000000000000; expire=1761000000000
 
 warp://162.159.192.5:934?ifpm=m5#@hiddifyvip1
-warp://162.159.192.4:934?ifpm=m5#@hiddifyvip2
-warp://162.159.192.3:934?ifpm=m5#@hiddifyvip3
+warp://162.159.192.8:500?ifpm=m5#@hiddifyvip2
+warp://162.159.192.9:4500?ifpm=m5#@hiddifyvip3
 warp://162.159.192.5:934?ifpm=m5#@hiddifyvip4
 warp://162.159.192.6:934?ifpm=m5#@hiddifyvip5
-warp://162.159.192.7:934?ifpm=m5#@hiddifyvip6
+warp://162.159.192.7:4500?ifpm=m5#@hiddifyvip6
